@@ -15,11 +15,6 @@ RUN python3.7 -m pip install --upgrade setuptools
 
 RUN python3.7 -V
 RUN python3.7 -m pip install -r requirements.txt --no-cache-dir
-EXPOSE 5005
-EXPOSE 443
-EXPOSE 80
-EXPOSE 5555 
-EXPOSE 6379
 
 RUN chmod +x /app/entry.sh
 ENTRYPOINT [ "/app/entry.sh" ]
