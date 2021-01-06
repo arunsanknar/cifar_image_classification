@@ -1,4 +1,4 @@
-alectio-sdk==0.6.4
+alectio-sdk==0.6.8
 tqdm==4.46.0
 pyyaml
 pandas==1.0.3
