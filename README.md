@@ -16,7 +16,7 @@ To recap, the steps were setting up a virtual environment and then installing th
 To install the AlectioSDK from within the current directory (`./examples/object_detection`) run:
 
 ```bash
-pip install alectio-sdk==0.6.4
+pip install alectio-sdk
 ```
 
 ### 2. Runing the experiment
